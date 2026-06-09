@@ -1,5 +1,5 @@
 {
-  "version": "3.0.0",
-  "downloadUrl": "https://github.com/tvinkcmd-ctrl/UselessChecker-Updates/releases/latest/download/UselessChecker.exe",
-  "changelog": "Первый релиз чекера с поддержкой лаунчера обновлений."
+  "version": "3.0.1",
+  "downloadUrl": "https://github.com/tvinkcmd-ctrl/UselessChecker-Updates/releases/latest/download/UselessChecker.zip",
+  "changelog": "Добавлены оптимизации графического интерфейса и исправлена стабильность загрузки."
 }
