@@ -1,11 +1,16 @@
-```
-# Build outputs
+```gitignore
+# Build artifacts
 bin/
 obj/
-out/
+*.exe
+*.dll
+*.pdb
+*.nupkg
+*.userprefs
 
-# Dependencies
-packages/
+# OS generated files
+.DS_Store
+Thumbs.db
 
 # Logs
 *.log
@@ -13,10 +18,21 @@ packages/
 # User-specific files
 .vs/
 *.user
-*.userosscache
 *.suo
+*.userosscache
+*.sln.docstates
 
 # Environment specific settings
 .env
 .env.local
+*.local
+*.userprefs
+
+# Cache
+.cache/
+*.cache
+
+# Temporary files
+*.tmp
+*.temp
 ```

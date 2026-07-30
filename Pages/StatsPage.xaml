@@ -17,7 +17,12 @@
                                Foreground="#a0a0b0" TextAlignment="Center" Margin="0,40,0,40"/>
                     
                     <!-- Пример будущих элементов статистики -->
-                    <Grid ColumnDefinitions="*,*,*">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
                         <Border Grid.Column="0" CornerRadius="8" Padding="15" Margin="5">
                             <Border.Background>
                                 <SolidColorBrush Color="#00d9ff" Opacity="0.1"/>
