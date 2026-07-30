@@ -1,0 +1,25 @@
+<Page x:Class="UselessChecker.Pages.CheckPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Проверка">
+    
+    <Grid Margin="20">
+        <StackPanel>
+            <TextBlock Text="Проверка системы" Style="{StaticResource HeaderText}"/>
+            <TextBlock Text="Запустите сканирование для анализа системы" Style="{StaticResource SubHeaderText}"/>
+            
+            <Border CornerRadius="10" Padding="30" Margin="0,20,0,0" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Border.Background>
+                    <SolidColorBrush Color="#00d9ff" Opacity="0.05"/>
+                </Border.Background>
+                <StackPanel HorizontalAlignment="Center">
+                    <TextBlock Text="🔍" FontSize="48" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+                    <TextBlock Text="Нажмите кнопку ниже для начала проверки" 
+                               Foreground="#a0a0b0" TextAlignment="Center" TextWrapping="Wrap" Margin="0,0,0,30"/>
+                    <Button Content="Запустить проверку" Style="{StaticResource AccentButton}" 
+                            Padding="30,15" FontSize="16" Click="StartScan_Click"/>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </Grid>
+</Page>

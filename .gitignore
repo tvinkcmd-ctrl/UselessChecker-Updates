@@ -1,0 +1,22 @@
+```
+# Build outputs
+bin/
+obj/
+out/
+
+# Dependencies
+packages/
+
+# Logs
+*.log
+
+# User-specific files
+.vs/
+*.user
+*.userosscache
+*.suo
+
+# Environment specific settings
+.env
+.env.local
+```
